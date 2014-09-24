@@ -6,6 +6,9 @@ Created on Wed Sep 24 16:41:05 2014
 """
 
 import sys
-OP1 = float(sys.argv[1])
-OP2 = float(sys.argv[2])
-print(OP1 - OP2)
+if len(sys.argv) < 3:
+    print("Error : 2 arguments are expected")
+else:
+    OP1 = float(sys.argv[1])
+    OP2 = float(sys.argv[2])
+    print(OP1 - OP2)
