@@ -64,6 +64,3 @@ def check_my_city(town):
     else:
         return print(
             {'stations_nb': stations_nb, 'zip_code': zip_code, 'city': city})
-
-
-
