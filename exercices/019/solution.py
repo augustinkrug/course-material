@@ -9,6 +9,6 @@ import sys
 if len(sys.argv) < 3:
     print("Error : 2 arguments are expected")
 else:
-    OP1 = float(sys.argv[1])
-    OP2 = float(sys.argv[2])
+    OP1 = int(sys.argv[1])
+    OP2 = int(sys.argv[2])
     print(OP1 + OP2)

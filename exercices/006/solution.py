@@ -11,4 +11,4 @@ test = ["Hello World", 42]
 print(test)
 """
 
-print(["Hello World", 42])
+print(["Hello world", 42])
