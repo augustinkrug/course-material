@@ -9,5 +9,4 @@ import sys
 if len(sys.argv) < 2:
     print("Error : 1 argument is expected")
 else:
-    argument = sys.argv[1]
-    print(argument)
+    print(sys.argv[1])
