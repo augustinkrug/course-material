@@ -6,6 +6,8 @@ Created on Wed Sep 24 12:19:58 2014
 """
 
 import sys
+"""
+old solution
 name = sys.argv[0]
 
 for i in range(len(name)):
@@ -14,3 +16,5 @@ for i in range(len(name)):
         break
     else:
         continue
+"""
+print(sys.argv[0])
